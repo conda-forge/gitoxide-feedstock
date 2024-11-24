@@ -1,5 +1,5 @@
 {% set name = "gitoxide" %}
-{% set version = "0.67.0" %}
+{% set version = "0.68.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/Byron/gitoxide/archive/gix-v{{ version }}.tar.gz
-  sha256: 707e7e059189ab17af6bccb0b2e3e767c2abf8a66e1dc47236836456d6e98c9d
+  sha256: 5ba97467f8d4e5b2776775686731cbb2a2aea0db95c1d23ceb6ad7e80a25af4d
 
 build:
   number: 0
