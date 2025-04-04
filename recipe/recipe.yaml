@@ -1,5 +1,5 @@
 context:
-  version: "0.70.0"
+  version: "0.71.0"
 
 package:
   name: gitoxide
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/Byron/gitoxide/archive/gix-v${{ version }}.tar.gz
-  sha256: 111d088c71a35381eee51bbc23ae249917ef414dd7cd692dc5041d47dc2e00e8
+  sha256: eef6c236f3f9246ad6dc6bf6c97b22659e2505ff79ed1013a4c0082af8b79315
 
 build:
   number: 0
